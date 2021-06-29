@@ -90,6 +90,7 @@ footer {
     padding-top: 5rem;
     padding-left: 10rem;
     padding-right: 10rem;
+    padding-bottom: 0;
     height: 35rem;
     width: 100%;
     margin-bottom: 0;
@@ -102,12 +103,11 @@ footer h1 {
     
     text-align: center;
     font-size: 3rem;   
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
+
 }
 
-.wrapper {
-    width: 70%;
-}
+
 
 #social {
     font-size: 10rem;
@@ -123,9 +123,11 @@ footer h1 {
 }
 
 .end {
-    margin-top: 5rem;
+    margin-top: 1rem;
     margin-left: 9rem;
-    padding-bottom: 1rem;
+    margin-right: 9rem;
+    padding-bottom: 0rem;
+    margin-bottom: 0;
     text-align: left;
     color:rgb(150, 150, 150);
 }
@@ -134,8 +136,8 @@ footer h1 {
 
 .back-to-top {
     
-    position: absolute;
-    top:215rem;
+    position: relative;
+    text-align: right;
     right: 1rem;
     bottom: 1rem;
     
